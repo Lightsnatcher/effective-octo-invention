@@ -1,0 +1,9 @@
+local Plr=game.player.localplayer
+local PlrChar=game.workspace:getcharacterfromplayer(PLr.Name)
+local BodyParts=PlrChar:GetChildren()
+
+  for i, BP in pairs (BodyParts)
+  print (BP.Name)
+  end
+  
+  --This is just a test I guess
